@@ -13,8 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'AIPG - 인공지능 문제 생성기',
       theme: ThemeData(
-        // Use a predefined MaterialColor from the Colors class
-        primarySwatch: Colors.green, // Fix: Changed to a valid MaterialColor
+        primarySwatch: Colors.green,
       ),
       home: const MyHomePage(),
     );
